@@ -50,14 +50,12 @@ object mario {
 
 object luigi{
 	var pesosAhorrados = 10
-	var inversion = lebacs
+	var property inversion = lebacs
 	
 	method valorFinanciero(){
 		return (pesosAhorrados + inversion.rendimiento(pesosAhorrados))/2
 	}
-	method cambiarInversion(nuevaInversion){
-		inversion = nuevaInversion
-	}
+	
 }
 
 object plazoFijo{
